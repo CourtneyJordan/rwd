@@ -6,5 +6,6 @@ This is a simple responsive layout created with a simple 12 grid. It has basical
 ## Tools Used
 
 [Cupcake Ipsum](http://www.cupcakeipsum.com/)
+
 [lightgallery](https://github.com/sachinchoolur/lightGallery)
 
