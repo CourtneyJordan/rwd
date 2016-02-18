@@ -1,0 +1,24 @@
+//Colors used through the website
+
+$white: #FFF;
+$black: #000;
+
+$grey: #444;
+$greyLighter: lighten($grey, 40%);
+$greyLight: lighten($grey, 20%);
+$greyDark: darken($grey, 10%);
+$greyDarker: darken($grey, 20%);
+
+$blue: #0099CC;
+$blueLighter: lighten($blue, 40%);
+$blueLight: lighten($blue, 20%);
+$blueDark: darken($blue, 10%);
+$blueDarker: darken($blue, 20%);
+
+$green: #009933;
+$greenLighter: lighten($green, 20%);
+$greenLight: lighten($green, 10%);
+$greenDark: darken($green, 5%);
+$greenDarker: darken($green, 10%);
+
+$body: #f2f2f2;

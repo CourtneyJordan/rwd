@@ -1,0 +1,11 @@
+{
+  "name": "Andirondacks",
+  "title": "Discover the Andirondacks",
+  "version": "0.0.1",
+  "description": "The Excelsior Web Framework (EWF) is a way to fast-track your project's user interface development. Excelsior is a collaboratively built front-end framework that can enable NYS web projects to start on a solid mobile-first responsive foundation.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,27 @@
+//Imported Style Branches
+
+@import "_fonts";
+@import "_media-queries";
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $body;
+	color: $grey;
+	font-family: 'OpenSans', sans-serif;
+	margin: 0;
+}
+
+.hidden-div {
+	display: none;
+}
+
+.biking-img-1 {
+	background: url(http://10.61.15.34:8080/rwd/images/biking/1.jpg) no-repeat center center;
+}
+
+.biking-img-2 {
+	background: url(http://10.61.15.34:8080/rwd/images/biking/2.jpg) no-repeat center center;
+}

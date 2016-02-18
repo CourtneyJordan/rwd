@@ -1,0 +1,564 @@
+//Imported Style Branches
+@import "_colors";
+@import "_fonts";
+@import "_mixin";
+
+/*  Mobile Styles */
+
+.col-small-1 {
+	width: 8.33%;
+}
+
+.col-small-2 {
+	width: 16.66%;
+}
+
+.col-small-3 {
+	width: 25%;
+}
+
+.col-small-4 {
+	width: 33.33%;
+}
+
+.col-small-5 {
+	width: 41.66%;
+}
+
+.col-small-6 {
+	width: 50%;
+}
+
+.col-small-7 {
+	width: 58.33%;
+}
+
+.col-small-8 {
+	width: 66.66%;
+}
+
+.col-small-9 {
+	width: 75%;
+}
+
+.col-small-10 {
+	width: 83.33%;
+}
+
+.col-small-11 {
+	width: 91.66%;
+}	
+
+.col-small-12 {
+	width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.logo, 
+.footer {
+	color: $green;
+	font-size: 1.5em;
+	font-family: 'Bilbo', sans-serif;
+	margin: 4px 4px 0 6px;
+	font-weight: normal;
+	padding: 5px 5px 0 5px;
+}
+
+#hide-mobile-menu {
+	display: none;
+	width: 100%;
+}
+
+.icon-menu {
+	color: $green;
+	display: inline-block;
+	float: right;
+    margin: 6px 0 0 0;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.mobile-links {
+	display: inline-block;
+	background: $green;
+	padding: 10px;
+	width: 100%;
+	margin: 0;
+
+	li {
+		display: inline-block;
+		font-size: 0.75em;
+		margin-right: 20px;
+		width: auto;
+
+
+		a {
+			color: $white;
+			text-decoration: none;
+		}
+	}
+
+    .hidden-icon-links {
+    	display: none;
+    }
+}
+
+.text-menu {
+	display: none;
+}
+
+.main-wrapper {
+	width: 100%;
+	display: block;
+
+	.row {
+		margin: 0 auto;
+
+		.hero {
+			padding: 0;
+
+			.hero-img {
+				background: linear-gradient(
+					rgba(0, 0, 0, 0.1),
+      				rgba(0, 0, 0, 0.1)
+    			),
+				url(http://10.61.15.34:8080/rwd/images/hero2.png) no-repeat center center;
+				width: 100%;
+  				height: 200px;
+  				background-size: cover;
+				text-align: center;
+				position: relative;
+			}
+			.hero-text {
+				color: $white;
+				position: relative;
+				text-align: center;
+				width: 100%;
+				margin-top: -204px;
+				margin-bottom: 30px;
+
+				h2 {
+					font-size: 2.5em;
+					font-family: 'Bilbo', sans-serif;
+					margin-top: 36px;
+					margin-bottom: 0;
+					font-weight: normal;
+				}	
+
+				h3 {
+					font-family: 'OpenSansItalic', sans-serif;
+					font-size: 0.8em;
+					margin-top:10px;
+					font-weight: normal;
+				}
+
+				button {
+					background-color: $blue;
+					border: 0;
+					//border-radius: 6px;
+					color: $white;
+					font-size: 0.8em;
+					padding: 10px;
+				}
+			}
+		}
+
+		.content {
+			background-color: $body;
+			div {
+				padding: 10px;
+				margin-bottom: 10px;
+				//border: 1px solid $greyLighter;
+
+				div {
+					border: none;
+					margin-bottom: 0;
+				}	
+			}
+
+			h3 {
+				color: $green;
+				float: left;
+				margin: 0;
+			}
+
+			p {
+				font-size: 0.85em;
+				display: inline-block;
+				//margin-left: 10px;
+			}
+
+			img {
+				background-size: cover;
+				float: left;
+			}
+
+			button {
+				background-color: $blue;
+				border: 0;
+				color: $white;
+				font-size: 0.8em;
+				padding: 10px;
+				//margin-left: 10px;
+			}
+
+			.thumbnail {
+				vertical-align: top;
+			    width: 160px;
+			    height: 188px;
+			    overflow: hidden;
+			}
+
+			.biking {
+				background: url(http://10.61.15.34:8080/rwd/images/biking/4.jpg) no-repeat center center;
+				background-size: cover;
+			}
+
+			.camping {
+				background: url(http://10.61.15.34:8080/rwd/images/camping/4.jpg) no-repeat center center;
+				background-size: cover;
+			}
+
+			.fishing {
+				background: url(http://10.61.15.34:8080/rwd/images/fishing/2.jpg) no-repeat center left;
+				background-size: cover;
+			}
+
+			.hiking {
+				background: url(http://10.61.15.34:8080/rwd/images/hiking/3.jpg) no-repeat center center;
+				background-size: cover;
+			}	
+
+			.kayaking {
+				background: url(http://10.61.15.34:8080/rwd/images/kayaking/5.jpg) no-repeat center center;
+				background-size: cover;
+			}
+
+			.wildlife {
+				background: url(http://10.61.15.34:8080/rwd/images/wildlife/6.jpg) no-repeat center center;
+				background-size: cover;
+			}
+		}
+
+		.foot {
+			color: $green;
+
+			hr {
+				border: 0;
+			    height: 0;
+			    border-top: 1px solid rgba(0, 0, 0, 0.1);
+			    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+			}
+
+			p {
+				font-size: 0.60em;
+				display: inline-block;
+				margin-left: 10px;
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+
+/* Tablet Media Queries  461px-768px */
+@media only screen and (min-width: 28.813em) {
+
+	.col-medium-1 {
+		width: 8.33%;
+	}
+
+	.col-medium-2 {
+		width: 16.66%;
+	}
+
+	.col-medium-3 {
+		width: 25%;
+	}
+
+	.col-medium-4 {
+		width: 33.33%;
+	}
+
+	.col-medium-5 {
+		width: 41.66%;
+	}
+
+	.col-medium-6 {
+		width: 50%;
+	}
+
+	.col-medium-7 {
+		width: 58.33%;
+	}
+
+	.col-medium-8 {
+		width: 66.66%;
+	}
+
+	.col-medium-9 {
+		width: 75%;
+	}
+
+	.col-medium-10 {
+		width: 83.33%;
+	}
+
+	.col-medium-11 {
+		width: 91.66%;
+	}	
+
+	.col-medium-12 {
+		width: 100%;
+	}
+
+	.logo, 
+	.footer {
+		font-size: 1.6em;
+	}	
+
+	.main-wrapper {
+	
+		.row {
+
+			.hero {
+
+				.hero-img {
+	  				height: 250px !important;
+				}
+
+				.hero-text {
+					margin-top: -257px;
+
+					h2 {
+						font-size: 2.7em;
+						margin-top: 45px;
+					}		
+
+					h3 {
+						font-size: 1.0em;
+						margin-top: 30px;
+					}
+
+					button {
+						font-size: 0.9em;
+					}
+				}
+			}
+
+			.content {
+				div {
+					margin-top: 2px;
+					padding: 9px;
+					height: auto;
+
+					div {
+
+					}
+				}
+
+				h3 {
+					color: $green;
+					float: none;
+					margin: 0;
+				}
+
+				p {
+					float: none;
+				}
+
+				img {
+				}
+
+				button {
+				}
+
+				.thumbnail {
+				    width: 100%;
+    				height: 100px;
+				    float: none;
+				}
+			}	
+
+			.foot {
+				p {
+					font-size: 0.70em;
+				}
+			}
+		}
+
+	}
+}
+
+/* Desktop Media Queries  769px-1400px */
+@media only screen and (min-width: 48.063em) {
+
+	.col-large-1 {
+		width: 8.33%;
+	}
+
+	.col-large-2 {
+		width: 16.66%;
+	}
+
+	.col-large-3 {
+		width: 25%;
+	}
+
+	.col-large-4 {
+		width: 33.33%;
+	}
+
+	.col-large-5 {
+		width: 41.66%;
+	}
+
+	.col-large-6 {
+		width: 50%;
+	}
+
+	.col-large-7 {
+		width: 58.33%;
+	}
+
+	.col-large-8 {
+		width: 66.66%;
+	}
+
+	.col-large-9 {
+		width: 75%;
+	}
+
+	.col-large-10 {
+		width: 83.33%;
+	}
+
+	.col-large-11 {
+		width: 91.66%;
+	}	
+
+	.col-large-12 {
+		width: 100%;
+	}
+
+	.logo {
+		float: left;
+		display: inline-block;
+	}
+
+	.footer {
+		display: block;
+	}
+
+	.logo,
+	.footer {
+		font-size: 2.0em;
+	}
+
+	.icon-menu {
+		display: none;
+	}
+
+	.text-menu {
+		display: inline-block;
+		float: right;
+		list-style-type: none;
+		position: relative;
+		width: auto;
+		margin-top: 13px;
+		margin-bottom: 0;
+
+		li {
+			display: inline-block;
+			margin-right: 20px;
+			a {
+				color: $green;
+				text-decoration: none;
+
+				&:hover {
+					color: $greenLight;
+					text-decoration: underline;
+				}
+
+				&:active {
+					color: $greenDark;
+				}
+			}
+		}
+
+	}
+
+	.hero {
+
+		.logo {
+			font-size: 2.5em;
+			margin: 2px;
+		}	
+	}
+
+	.main-wrapper {
+	
+		.row {
+
+			.hero {
+				padding: 0;
+
+				.hero-img {
+					height: 350px !important;
+				}
+
+				.hero-text {
+					margin-top: -340px;
+					    margin-bottom: 56px;
+
+					h2 {
+							font-size: 3.6em;
+							margin-top: 60px;
+						}		
+
+					h3 {
+						font-size: 1.2em;
+						margin-top: 40px;
+					}
+
+					button {
+						font-size: 1.0em;
+
+						&:hover {
+							background-color: $blueLight;
+						}
+
+						&:active {
+							background-color: $blueDark;
+						}
+					}
+				}
+			}
+
+			.content {
+
+				button {
+
+					&:hover {
+						background-color: $blueLight;
+					}
+
+					&:active {
+						background-color: $blueDark;
+					}
+				}
+			}
+
+			.foot {
+				p {
+					font-size: 0.780em;
+				}
+			}
+		}
+
+	}
+}
