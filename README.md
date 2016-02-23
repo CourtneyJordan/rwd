@@ -3,6 +3,7 @@ _v.0.1_
 
 This is a simple responsive layout created with a simple 12 grid. It has basically everything you'd need to create a simple responsive website/gallery.
 
+View the [Demo](http://courtneyjordan.github.io/rwd-layout1/index.html)
 ## Tools Used
 
 [Cupcake Ipsum](http://www.cupcakeipsum.com/)
